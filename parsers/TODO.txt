@@ -1,0 +1,9 @@
+TODO liste på forslag til implementeringer
+
+SAF-T parsers:
+1. GL(Hovedbok) pivot som viser GL transaksjoner fordelt per måned(periode).
+Gjerne også med IB tatt fra Accounts (Saldobalanse) slik at man får frem en korrekt UB totalsum i siste kolonne til høyre.
+Kolonneformat:
+IB | 1 | 2 | 3 .... et. | UB |
+
+2. Oversikt over fordeling av motpost på kontoer. Jeg vet ikke hvordan dette kan gjøres på best mulig måte.

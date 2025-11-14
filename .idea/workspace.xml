@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75091bc1-1622-42b4-9f09-a271234ff895" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saft.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/README_parsers_latest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/SAF-T_NO_Formatoversikt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/SAF-T_NO_Structure.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/TODO.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/ar_ap_saldolist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/cli_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/dupes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/gl_checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/gl_reconciliation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/io_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/masterdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/mva_checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/mva_term_recon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/negatives.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/periods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/report_fmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/reports_ledger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/run_all_checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/vat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/controls/vat_checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/dupes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/excel_formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/excel_writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/gl_checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/gl_reconciliation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/health_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/io_helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/io_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/masterdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/mva_checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/mva_term_recon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/negatives.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/periods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/postprocess_unknown_nodes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/report_fmt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/report_gl_pivot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/report_ledger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/report_subledgers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/reports_ledger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/run_all_checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/run_saft_pro_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_ap_ar_balance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_audit_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_control_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_controls_and_exports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_dataset_overview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_field_locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_full_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_general_ledger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_gl_monthly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_gl_overview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_mapping_probe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_mapping_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_mva_termin_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_parser_docs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_parser_pro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_party_enricher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_pro_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_profile_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_progress_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_reports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_run_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_selftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_stream_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_structure_probe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_subledger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_subledger_formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_subledger_from_gl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_subledger_impl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_trial_balance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_trial_balance_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_vat_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/saft_xml_probe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/sanity_check_reskontro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/subledgers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/utils_io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/validate_saft_output.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/vat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parsers/vat_checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saft_pro_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="34glMWPkhxdl0nGjopAhatWmH7u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.saft_pro_gui.executor": "Run",
+    "Python.ui_main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ib91/Desktop/PyCharmProjects/Utvalgnew"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ib91\Desktop\PyCharmProjects\saft" />
+      <recent name="C:\Users\ib91\Desktop\PyCharmProjects\saft\saft" />
+      <recent name="C:\Users\ib91\Desktop\PyCharmProjects\saft\parsers\controls" />
+      <recent name="C:\Users\ib91\Desktop\PyCharmProjects\saft\parsers" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75091bc1-1622-42b4-9f09-a271234ff895" name="Changes" comment="" />
+      <created>1761643048545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761643048545</updated>
+    </task>
+    <servers />
+  </component>
+</project>
