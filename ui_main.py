@@ -51,7 +51,11 @@ if "parsers" not in sys.modules:
 else:
     parsers = sys.modules["parsers"]
 
-app_pkg = types.ModuleType("app")
+if "app" in sys.modules:
+    app_pkg = sys.modules["app"]
+else:
+    app_pkg = types.ModuleType("app")
+app_pkg.__dict__.setdefault("__path__", [])
 app_pkg.__path__ = []
 app_pkg.parsers = parsers
 sys.modules["app"] = app_pkg
@@ -59,7 +63,8 @@ sys.modules["app.parsers"] = parsers
 
 def main():
     try:
-        from parsers import App  # type: ignore
+        # Viktig endring: importer App fra riktig modul
+        from parsers.saft_pro_gui import App  # type: ignore
     except Exception as e:
         msg = "[fatal] Klarte ikke å importere parsers.saft_pro_gui.App: %s" % e
         print(msg)

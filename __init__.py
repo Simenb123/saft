@@ -1,8 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-Gjør fasade-funksjonene tilgjengelig ved import av pakken:
-    from app.parsers import make_trial_balance
-"""
-from .saft_reports import make_subledger, make_trial_balance, make_general_ledger
+Root-pakke for SAFT-prosjektet.
 
-__all__ = ["make_subledger", "make_trial_balance", "make_general_ledger"]
+Denne fila skal **ikke** gjøre tunge imports, fordi den blir evaluert
+hver gang noe importerer `saft` eller moduler under prosjektet.
+
+All funksjonell logikk ligger i moduler som:
+- parsers/
+- saft_pro_gui.py
+- ui_main.py
+"""
+
+from __future__ import annotations
+
+# Ingen automatisk import her – vi holder pakken "lett".
+__all__: list[str] = []
