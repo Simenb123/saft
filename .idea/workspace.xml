@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75091bc1-1622-42b4-9f09-a271234ff895" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_smoke_imports.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_main.py" afterDir="false" />
+    <list default="true" id="75091bc1-1622-42b4-9f09-a271234ff895" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_common.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Simenb123"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Simenb123&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Simenb123/saft.git",
-    "accountId": "5f4d07fd-9395-497a-9f44-8df8dd996101"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Simenb123/saft.git&quot;,
+    &quot;accountId&quot;: &quot;5f4d07fd-9395-497a-9f44-8df8dd996101&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -51,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in test_common.py.executor": "Run",
     "Python.saft_pro_gui.executor": "Run",
     "Python.ui_main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -82,6 +80,18 @@
       <option name="presentableId" value="Default" />
       <updated>1761643048545</updated>
     </task>
+    <task id="LOCAL−00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1763135875057</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1763135875057</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

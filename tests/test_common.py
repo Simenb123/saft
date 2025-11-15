@@ -1,7 +1,16 @@
+import sys
+from pathlib import Path
+
 import pandas as pd
 import pytest
 
-from parsers.common import (
+# Sørg for at prosjektroten (der parsers/ ligger) er på sys.path
+ROOT = Path(__file__).resolve().parents[1]
+root_str = str(ROOT)
+if root_str not in sys.path:
+    sys.path.insert(0, root_str)
+
+from parsers.common import (  # type: ignore[import]
     norm_acc,
     norm_acc_series,
     has_value,
